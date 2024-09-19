@@ -1,0 +1,54 @@
+{
+    "name": "PIA",
+    "maps": [
+        {
+            "name": "Game",
+            "id": "6405335a-5ba4-4bdc-81f6-2b60a6f1bf88",
+            "actions": [
+                {
+                    "name": "Drag",
+                    "type": "Value",
+                    "id": "48a65578-1c86-46dd-9e80-7864f915967d",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Click",
+                    "type": "Button",
+                    "id": "44e494f5-eb30-47cb-8b83-dfefc6e5efd9",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "9f83ab97-89c8-49d3-b554-c74898408d4f",
+                    "path": "<Touchscreen>/touch0/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Drag",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "e0ad7664-eb26-4362-8302-ade530d97179",
+                    "path": "<Pointer>/press",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Click",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

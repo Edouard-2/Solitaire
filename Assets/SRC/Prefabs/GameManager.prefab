@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &708158271839361612
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7497604133658574459}
+  - component: {fileID: 6587789459236112775}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7497604133658574459
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 708158271839361612}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6587789459236112775
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 708158271839361612}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6fc86fe972b0a9e4598cb77fcb1a40ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _eventAddUndo: {fileID: 11400000, guid: a58ce57c4a40a3347b364a88ab8395d5, type: 2}
+  _eventOnStateChange: {fileID: 11400000, guid: d44dd63f640d9604c9191272754a484e, type: 2}
+  _eventFinalStackComplete: {fileID: 11400000, guid: 84a4495e4a5b168429701e28de4becc4, type: 2}
+  _eventUndoScore: {fileID: 11400000, guid: 05e113cde67258c459e90154c6651936, type: 2}
+  _eventMoveCard: {fileID: 11400000, guid: 3916d3c8aea276c4dbc43e6b5cf64825, type: 2}
+  _eventRaiseUndoStack: {fileID: 11400000, guid: 2aeb5268258184e4ebfcd6118b1a85e0, type: 2}
+  _eventActiveMainMenu: {fileID: 11400000, guid: 72ff91fc1b0851148b599d2f76bd6e93, type: 2}
+  _eventActivePlaying: {fileID: 11400000, guid: 096070fd205951c449bfc391df604d4a, type: 2}
+  _eventActiveLoose: {fileID: 11400000, guid: 7f1a8e201a7e2244bae8e9f41b8fcb46, type: 2}
+  _eventRaiseUndo: {fileID: 11400000, guid: 2971034bf8065a940b8a267c24c1a14b, type: 2}
+  _eventRemoveFrontCard: {fileID: 11400000, guid: 41ca89a2d38340a49a4554f24b664734, type: 2}
+  _mainMenuParent: {fileID: 0}
+  _gameParent: {fileID: 0}
+  _winParent: {fileID: 0}
+  _looseParent: {fileID: 0}
+  _undoMoveCount: 10
+  _map: {fileID: 0}

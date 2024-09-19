@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5945661316604016597
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2462861261077885491}
+  - component: {fileID: 7930273195972274047}
+  m_Layer: 0
+  m_Name: StatisticsManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2462861261077885491
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5945661316604016597}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 49.90979, y: -44.567383, z: 2.879344}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7930273195972274047
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5945661316604016597}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93324402c2128ce48b5534a55461df17, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _eventOnStateChange: {fileID: 11400000, guid: d44dd63f640d9604c9191272754a484e, type: 2}
+  _eventUndoScore: {fileID: 11400000, guid: 05e113cde67258c459e90154c6651936, type: 2}
+  _addCardMoveCount: {fileID: 11400000, guid: 3916d3c8aea276c4dbc43e6b5cf64825, type: 2}
+  _moveCardToFinalStack: {fileID: 11400000, guid: 25fe2042b3a69fa45bf08ea05fc093ac, type: 2}
+  _moveCardToArray: {fileID: 11400000, guid: 096f260a3e1cb1d48afe9c975adf4ac9, type: 2}
+  _eventScoreUpdate: {fileID: 11400000, guid: 48484b32feb8af8409565bb1e38c150e, type: 2}
+  _eventTimeUpdate: {fileID: 11400000, guid: c276ac746c934374d8b981328811dfe9, type: 2}
+  _eventCardMoveCountUpdate: {fileID: 11400000, guid: ff705e83731edde4f9a104007cfc36f6, type: 2}
+  _scoreIfTimeMax: 100
+  _scoreIfTimeMin: 10000
